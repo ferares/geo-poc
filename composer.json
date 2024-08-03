@@ -1,0 +1,23 @@
+{
+    "name": "ferares/geo-poc",
+    "autoload": {
+        "psr-4": {
+            "Fermin\\GeoPoc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ferares",
+            "email": "fermin@ares.uy"
+        }
+    ],
+    "config": {
+      "process-timeout": 0
+    },
+    "scripts": {
+      "start": "php -S 0.0.0.0:2000 -t ./src"
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.6"
+    }
+}
